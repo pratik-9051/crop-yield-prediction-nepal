@@ -24,26 +24,6 @@ This work was **presented at ICRTAI 2025** (International Conference on Recent T
 
 ---
 
-## 📁 Repository Structure
-
-```
-crop-yield-prediction-nepal/
-│
-├── app.py                  # Streamlit web application
-├── requirements.txt        # Python dependencies
-├── README.md
-│
-├── model/
-│   ├── xgb_model.json      # Trained XGBoost model
-│   ├── scaler.pkl          # StandardScaler
-│   └── feature_columns.pkl # Feature column names
-│
-└── notebooks/
-    └── Final_Model.ipynb   # Full training pipeline & analysis
-```
-
----
-
 ## 🌦️ Input Features
 
 | Feature | Description | Source |
@@ -80,16 +60,7 @@ See `notebooks/Final_Model.ipynb` for full training details, learning curves, an
 
 ---
 
-## 🛠️ Run Locally
 
-```bash
-git clone https://github.com/pratik-9051/crop-yield-prediction-nepal
-cd crop-yield-prediction-nepal
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
 
 ## 📚 Data Sources
 
